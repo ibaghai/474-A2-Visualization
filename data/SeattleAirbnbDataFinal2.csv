@@ -1,0 +1,52 @@
+neighborhood,Average_Price,Rental_Type
+Ballard,124.6826087,Combined_Average_Price
+Beacon Hill,94.66949153,Combined_Average_Price
+Capitol Hill,130.5925926,Combined_Average_Price
+Cascade,140.1011236,Combined_Average_Price
+Central Area,128.3387534,Combined_Average_Price
+Delridge,83.27848101,Combined_Average_Price
+Downtown,154.4056604,Combined_Average_Price
+Interbay,109.7272727,Combined_Average_Price
+Lake City,92.67164179,Combined_Average_Price
+Magnolia,177.6721311,Combined_Average_Price
+Northgate,88.55,Combined_Average_Price
+Other ,119.9685139,Combined_Average_Price
+Queen Anne,157.2237288,Combined_Average_Price
+Rainier Valley,91.89937107,Combined_Average_Price
+Seward Park,108.4772727,Combined_Average_Price
+University Dist.,93.63934426,Combined_Average_Price
+West Seattle,141.3596059,Combined_Average_Price
+Ballard,66.48780488,Average_Price_of_Private_Room
+Beacon Hill,66.36206897,Average_Price_of_Private_Room
+Capitol Hill,91.83216783,Average_Price_of_Private_Room
+Cascade,89.70833333,Average_Price_of_Private_Room
+Central Area,78.49285714,Average_Price_of_Private_Room
+Delridge,69.78947368,Average_Price_of_Private_Room
+Downtown,100.1428571,Average_Price_of_Private_Room
+Interbay,73,Average_Price_of_Private_Room
+Lake City,62.41666667,Average_Price_of_Private_Room
+Magnolia,67.36842105,Average_Price_of_Private_Room
+Northgate,66.97142857,Average_Price_of_Private_Room
+Other ,69.51094891,Average_Price_of_Private_Room
+Queen Anne,92.91935484,Average_Price_of_Private_Room
+Rainier Valley,60.60759494,Average_Price_of_Private_Room
+Seward Park,56.88235294,Average_Price_of_Private_Room
+University Dist.,54.10526316,Average_Price_of_Private_Room
+West Seattle,84.95522388,Average_Price_of_Private_Room
+Ballard,156.9256757,Average_Price_of_Entire_Home/Apt
+Beacon Hill,126.1754386,Average_Price_of_Entire_Home/Apt
+Capitol Hill,154.0052083,Average_Price_of_Entire_Home/Apt
+Cascade,162.3548387,Average_Price_of_Entire_Home/Apt
+Central Area,160.5777778,Average_Price_of_Entire_Home/Apt
+Delridge,95.7804878,Average_Price_of_Entire_Home/Apt
+Downtown,162.8343949,Average_Price_of_Entire_Home/Apt
+Interbay,153.8,Average_Price_of_Entire_Home/Apt
+Lake City,127.8064516,Average_Price_of_Entire_Home/Apt
+Magnolia,232.3902439,Average_Price_of_Entire_Home/Apt
+Northgate,111.902439,Average_Price_of_Entire_Home/Apt
+Other,152.4227642,Average_Price_of_Entire_Home/Apt
+Queen Anne,175.5108225,Average_Price_of_Entire_Home/Apt
+Rainier Valley,126.4342105,Average_Price_of_Entire_Home/Apt
+Seward Park,140.962963,Average_Price_of_Entire_Home/Apt
+University Dist.,119.6486486,Average_Price_of_Entire_Home/Apt
+West Seattle,170.1777778,Average_Price_of_Entire_Home/Apt
