@@ -23,10 +23,11 @@
 <body class="container">
     <h1>Iman Baghai</h1>
     <h1> A2: Seattle Airbnb listing data by Seattle neighborhood </h1>
-    <p>This visualization is based on Seattle AirBnB listing data from openAirBNB. This data shows the average price of AirBnB listings for each
-      Seattle neighborhood.
-      This is done in three ways: the average overall price of a listing, the price for listings
-        for private rooms, and the average price of listing for entire houses/apts.
+    <p style="font-size:120%";>This visualization is based on Seattle AirBnB listing data from openAirBNB. This data shows the average price of AirBnB listings for each
+      Seattle neighborhood. The price reflects the average price per neighborhood per night in three ways.
+      <strong>These three ways are: the average overall listing price, the price for listings
+        for private rooms, and the average price of listings for entire houses/apts. </strong>
+      </p>
 
         <div class="btn-group" data-toggle="buttons">
             <label class="btn btn-primary active">
@@ -45,36 +46,29 @@
 
         <div id="vis"></div>
 
-        <p>
-            On your webpage, you must provide a detailed defense of your choice of visual encodings and control features.
-            For your visual layout, describe why it is an optimal choice for expressing your data effectively (~ 1 paragraph).
-            Then, for each controlling
-            element, detail how it enables your user to ask different questions (~1 paragraph).
-            You should include specific examples of insights you discovered through the use of these tools.
-        </p>
         <p style="font-size:120%";>
-          For this dataset I chose to do a barchart for each neighborhood and its price on a common scale.
-          I did this because users are able to easily percieve the relative distance and lenght of the bars and the price of listing
-          based on the position of the bar relative to one another for each neighborhood against one another.
-          This is one of the most effective ways for individuals to percieve comparisons.
-          I incorporated control buttons so that the user can comapre the average price listing, the listing for private rooms,
-          and the price for entire houses/apts. This allows the user to quickly determine how expensive a neighborhood is for airbnb
-          but also how quickly they can determine if that stays true for an entire house or a private room.
-          This also allows the user to quickly determine what is the best use case for them and their AirBnB needs. Are they trying to book
+          For this dataset I chose to do a barchart for <strong>each neighborhood and its price on a common scale </strong>.
+          I did this because user's are easily able percieve the differences of the length of the bars relative to one another and the price of listings
+          based on the <strong>position of the bar relative to one another for each neighborhood against one another </strong>.
+          This is one of the  <strong>most effective ways for individuals to percieve comparisons </strong>.
+          I incorporated control buttons so that the user can comapre the average listing prices, the listing prices for private rooms,
+          and the prices for entire houses/apts. This allows the user to quickly determine how expensive a neighborhood is for an AirBnB
+          but also how quickly they can determine if that stays true for an entire house or a private room or if they want the prices for those use cases.
+          This also allows the user to quickly determine what is the best use case for them and their AirBnB needs. If they are trying to book
           an entire house they can quickly jump to that data or if they want to compare average prices for a private room they can jump to that.
-          Or if they want they can just browse the trends for pricing for priving overall by neighborhood.
-          The buttons allow for many different use cases quickly and easily while relying on the ability to percieve the data on a common scale
-          relative to each neighborhood by comparing position length.
-          Also because it is on a scale it may be difficult to determine the exact price per neighborhood which is why I added a hover over
+          Or if they want they can just browse the trends for pricing for overall prices by neighborhood.
+          These buttons allow for many different use cases quickly and easily while relying on the <strong> ability to percieve the data on a common scale
+          relative to each neighborhood by comparing position length </strong>.
+          Also because it is on a scale it may be difficult to determine the exact average price per neighborhood which is why I added a hover over
           that provides the user with the exact price.
         </p>
 
         <p style="font-size:120%";>
-          For the overall price button the user can quickly determine which neighborhoods seem are in what price ranges.
-          By clicking through the average price for a private room and for entire house/apt the user can see that there seems to be a high
-          correlation for where neighborhoods are with regards to one another in all three categories. However, Magnolia sees a massive spike in the
-          for an entire house/apt which seems to bring up its overall average price as well. It is also interesting that Downtown seems to command
-          a large premium for individual rooms per night, but that doesn't hold true for an entire apt/house compared to other neighborhood nor
+          For the overall price button the user can quickly determine which neighborhoods are in what price ranges.
+          By clicking through the average price for a private room or for entire houses/apts the user can see that there seems to be a <strong> high
+          correlation for the listing prices for neighborhoods relative to one another in all three categories </strong>. However, <strong> Magnolia </strong>sees a massive spike in the
+          price for listings for entire houses/apts which seems to bring up its overall average price. It is also interesting that <strong> Downtown </strong> seems to command
+          a large premium for individual rooms per night, but that <strong>doesn't hold true </strong> for an entire apts/houses compared to other neighborhood nor
           correlate with its overall listing price average.
 
           </thead>
