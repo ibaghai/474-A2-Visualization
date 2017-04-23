@@ -18,7 +18,7 @@ $(function() {
         var choice3 = "Average_Price_of_Entire_Home/Apt";
         var margin = {
             top: 50,
-            bottom: 100,
+            bottom: 115,
             left: 70,
             right: 50
         };
@@ -54,16 +54,15 @@ $(function() {
                 if (a.neighborhood > b.neighborhood) return 1;
                 return 0;
             });
-        data3[name] = "Average Listing Price of an Entire Home/Apt";
 
         //create window measurements for graph
-        var height = 600 - margin.bottom - margin.top;
+        var height = 550 - margin.bottom - margin.top;
         var width = 1200 - margin.left - margin.right;
 
         //creates svg that parts will be added to.
         var svg = d3.select("#vis")
             .append('svg')
-            .attr('height', 600)
+            .attr('height', 550)
             .attr('width', 1200);
 
         //main element where the rects will be placed
@@ -87,7 +86,7 @@ $(function() {
             .attr('class', 'title');
 
         var yAxisText = svg.append('text')
-            .attr('transform', 'translate(' + (margin.left - 40) + ',' + (margin.top + height / 2) + ') rotate(-90)')
+            .attr('transform', 'translate(' + (margin.left - 40) + ',' + (height) + ') rotate(-90)')
             .attr('class', 'title');
 
         // Define xAxis using d3.axisBottom(). Scale will be set in the setAxes function.
